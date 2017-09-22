@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [login into Drive2]">
+  <test name="Login By VKontakte(failed)">
+    <classes>
+      <class name="testCases.VerifyLoginIntoDrive2">
+        <methods>
+          <include name="CreateCapabilities"/>
+          <include name="AfterTestQuit"/>
+          <include name="VerifyLoginByVKontakteIsPerformed"/>
+        </methods>
+      </class> <!-- testCases.VerifyLoginIntoDrive2 -->
+    </classes>
+  </test> <!-- Login By VKontakte(failed) -->
+</suite> <!-- Failed suite [login into Drive2] -->

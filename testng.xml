@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="login into Drive2">
+ 	<test name="Login By Email" preserve-order="true">
+		 <classes>
+			<class name = "testCases.login">
+				<methods>
+					<include name = "VerifyRejectLoginByEmailIsPerformed"/>
+					<include name = "VerifyLoginByEmailIsPerformed"/>
+					<include name = "VerifyLogoutFromAppIsPerformed"/>
+				</methods>			
+			</class>
+		</classes>
+	</test>
+	<test name="Login By VKontakte" preserve-order="true" enabled = "false">
+		 <classes>
+			<class name = "testCases.VerifyLoginIntoDrive2">
+				<methods>
+					<include name = "VerifyRejectLoginByVKontakteIsPerformed"/>
+					<include name = "VerifyLoginByVKontakteIsPerformed"/>
+				</methods>			
+			</class>
+		</classes>
+	</test>
+<!-- <test name="Login By Facebook" preserve-order="true">
+		 <classes>
+			<class name = "testCases.VerifyLoginIntoDrive2">
+				<methods>
+					<include name = "VerifyRejectLoginByFacebookIsPerformed"/>
+				</methods>			
+			</class>
+		</classes>
+	</test> -->
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19799" started-at="2017-09-22T18:32:40Z" finished-at="2017-09-22T18:32:59Z">
+    <groups>
+      <group name="News feed">
+        <method signature="NewsFeedTests.verifyThatNewsFeedIsOpened()[pri:40, instance:testCases.NewsFeedTests@31a5c39e]" name="verifyThatNewsFeedIsOpened" class="testCases.NewsFeedTests"/>
+      </group> <!-- News feed -->
+    </groups>
+    <test name="Default test" duration-ms="19799" started-at="2017-09-22T18:32:40Z" finished-at="2017-09-22T18:32:59Z">
+      <class name="testCases.NewsFeedTests">
+        <test-method status="PASS" signature="CreateCapabilities()[pri:0, instance:testCases.NewsFeedTests@31a5c39e]" name="CreateCapabilities" is-config="true" duration-ms="45116" started-at="2017-09-22T11:31:55Z" finished-at="2017-09-22T11:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCapabilities -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.NewsFeedTests@31a5c39e]" name="beforeClass" is-config="true" duration-ms="14552" started-at="2017-09-22T11:32:40Z" finished-at="2017-09-22T11:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyThatNewsFeedIsOpened()[pri:40, instance:testCases.NewsFeedTests@31a5c39e]" name="verifyThatNewsFeedIsOpened" duration-ms="4973" started-at="2017-09-22T11:32:54Z" finished-at="2017-09-22T11:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatNewsFeedIsOpened -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.NewsFeedTests@31a5c39e]" name="afterClass" is-config="true" duration-ms="249" started-at="2017-09-22T11:32:59Z" finished-at="2017-09-22T11:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.NewsFeedTests@31a5c39e]" name="afterSuite" is-config="true" duration-ms="3014" started-at="2017-09-22T11:32:59Z" finished-at="2017-09-22T11:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.NewsFeedTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

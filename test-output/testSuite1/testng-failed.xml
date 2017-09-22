@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSuite1]">
+  <test name="Drive2LoginbyEmail(failed)">
+    <classes>
+      <class name="testCases.VerifyLoginIntoDrive2">
+        <methods>
+          <include name="VerifyLoginByEmailIsPerformed"/>
+          <include name="VerifyLogoutFromAppIsPerformed"/>
+          <include name="openBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testCases.VerifyLoginIntoDrive2 -->
+    </classes>
+  </test> <!-- Drive2LoginbyEmail(failed) -->
+</suite> <!-- Failed suite [testSuite1] -->

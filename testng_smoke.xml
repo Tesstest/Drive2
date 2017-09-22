@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Drive2. Smoke test." preserve-order="true">
+	<test name="Log in" preserve-order="true">
+		<groups>
+			<run>
+				<include name="withoutLogout" />
+				<exclude name="login" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.Login">
+			</class>
+		</classes>
+	</test>
+<!-- 	<test name="Chat" preserve-order="true">
+		<classes>
+ 			<class name="testCases.Chat">
+				<methods>
+					<include name="verifyThatChatScreenIsOpened" />
+					<include name="verifyThatDialogWithUserIsOpened" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+ --></suite>

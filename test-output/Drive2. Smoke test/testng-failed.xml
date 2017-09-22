@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Drive2. Smoke test.]">
+  <listeners>
+    <listener class-name="listeners.TestListeners"/>
+  </listeners>
+  <test name="Log in(failed)">
+    <classes>
+      <class name="testCases.LoginTests">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyLoginByEmailIsPerformed"/>
+          <include name="verifyLoginByFacebookIsPerformed"/>
+          <include name="afterClass"/>
+          <include name="beforeMetodWriteReport"/>
+          <include name="CreateCapabilities"/>
+          <include name="afterMetodWriteReport"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testCases.LoginTests -->
+      <class name="testCases.HomePageTests">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyThatHomeScreenIsOpened"/>
+          <include name="beforeMetodWriteReport"/>
+          <include name="beforeClass"/>
+          <include name="CreateCapabilities"/>
+          <include name="verifyThatCarOfTheDayIsOpened"/>
+          <include name="afterMetodWriteReport"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testCases.HomePageTests -->
+    </classes>
+  </test> <!-- Log in(failed) -->
+</suite> <!-- Failed suite [Drive2. Smoke test.] -->

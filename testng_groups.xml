@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="Drive2">
+	<test name="login into Drive2" preserve-order="true">
+		<groups>
+			<run>
+				<include name = "email"/>
+				<include name = "vKontakte"/>
+				<include name = "facebook"/>
+			</run>
+		</groups>
+		 <classes>
+			<class name = "testCases.VerifyLoginIntoDrive2">
+			</class>
+		</classes>
+	</test>
+</suite>

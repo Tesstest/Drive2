@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Drive2" preserve-order = "true">
+ 	<test name="Smoke test" preserve-order="true">
+		 <classes>
+  			<class name = "testCases.Chat">
+				<methods>
+					<include name = "verifyThatChatScreenIsOpened"/>
+					<include name = "verifyThatDialogWithUserIsOpened"/>
+					<include name = "verifyThatTextMessageIsSent"/>
+				</methods>
+			</class> 
+		</classes>
+	</test>
+<!-- <test name="Login By Facebook" preserve-order="true">
+		 <classes>
+			<class name = "testCases.VerifyLoginIntoDrive2">
+				<methods>
+					<include name = "VerifyRejectLoginByFacebookIsPerformed"/>
+				</methods>			
+			</class>
+		</classes>
+	</test> -->
+</suite>

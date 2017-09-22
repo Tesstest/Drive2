@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Drive2]">
+  <test name="Smoke test(failed)">
+    <classes>
+      <class name="testCases.Chat">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="loginIntoDive2"/>
+          <include name="beforeMrtodWriteReport"/>
+          <include name="verifyThatTextMessageIsSent"/>
+          <include name="beforeClass"/>
+          <include name="afterMrtodWriteReport"/>
+          <include name="verifyThatDialogWithUserIsOpened"/>
+          <include name="verifyThatChatScreenIsOpened"/>
+          <include name="CreateCapabilities"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testCases.Chat -->
+    </classes>
+  </test> <!-- Smoke test(failed) -->
+</suite> <!-- Failed suite [Drive2] -->

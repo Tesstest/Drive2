@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Drive2. Smoke test." preserve-order="true">
+	<listeners>
+		<listener class-name="listeners.TestListeners"></listener>
+	</listeners>
+	<test name="Log in" preserve-order="true">
+		<groups>
+			<dependencies>
+				<group name="Chat" depends-on="Critical" ></group>
+				<group name="HomePage" depends-on="Critical" ></group>
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="testCases.LoginTests"/>
+			<class name="testCases.ChatTests"/>
+			<class name="testCases.HomePageTests"/>
+		</classes>
+	</test>
+<!-- 	<test name="Chat" preserve-order="true">
+		<classes>
+ 			<class name="testCases.Chat">
+				<methods>
+					<include name="verifyThatChatScreenIsOpened" />
+					<include name="verifyThatDialogWithUserIsOpened" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+ --></suite>
